@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2>Dealer: <span id="dealer-sum"></span></h2>
+    <div id="dealer-cards">
+      <img id="hidden" src="./cards/BACK.png" />
+    </div>
+
+    <h2>You: <span id="your-sum"></span></h2>
+    <div id="your-cards"></div>
+
+    <br />
+    <button id="hit">Hit</button>
+    <button id="stand">Stand</button>
+    <!-- <button id="split">Split</button>
+    <button id="double">Double</button> -->
+
+    <p id="results"></p>
+    <!-- <br /> -->
+
+    <button id="replay">Play again</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
